@@ -44,7 +44,7 @@ const Index = () => {
     const conteudoWord = `
       <html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word' xmlns='http://www.w3.org/TR/REC-html40'>
       <head><meta charset='utf-8'><title>Despachos</title></head>
-      <body style="font-family: Arial, sans-serif; font-size: 12pt;">
+      <body style="font-family: 'Times New Roman', serif; font-size: 12pt; text-align: justify; line-height: 1.5;">
         <h3 style="text-align: center;">DESPACHO 01</h3>
         <p><strong>ENCAMINHAMENTO DE PRESTAÇÃO DE CONTAS (${programa})<br>REF. CONTÁBIL/2025</strong></p>
         <p>À GAD/4ª CRE,</p>
@@ -132,6 +132,7 @@ const Index = () => {
                 <SelectContent>
                   <SelectItem value="PDDE BÁSICO/2025">PDDE BÁSICO/2025</SelectItem>
                   <SelectItem value="PDDE QUALIDADE">PDDE QUALIDADE</SelectItem>
+                  <SelectItem value="PDDE EQUIDADE">PDDE EQUIDADE</SelectItem>
                 </SelectContent>
               </Select>
             </div>
